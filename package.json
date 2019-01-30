@@ -1,0 +1,12 @@
+{
+  "name": "sample",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "dtsgen swagger.yaml -o ./dist/model.ts -n PetStore"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "dtsgenerator": "^2.0.5"
+  }
+}
