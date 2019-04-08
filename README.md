@@ -10,6 +10,7 @@ swagger + node.js model gen sample
 # 使用ライブラリ
 
 * dtsgenerator
+* sw2dts 
 
 # VSCode 推奨拡張機能
 

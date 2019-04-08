@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "build": "dtsgen swagger.yaml -o ./dist/model.ts -n PetStore",
-    "build:ng": "ng-swagger-gen -i swagger.yaml -o ./dist/ng"
+    "build:ng": "ng-swagger-gen -i swagger.yaml -o ./dist/ng",
+    "build:sw": "sw2dts swagger.yaml -o ./dist/model-sw.d.ts"
   },
   "private": true,
   "dependencies": {},
   "devDependencies": {
     "dtsgenerator": "^2.0.5",
-    "ng-swagger-gen": "^1.4.3"
+    "ng-swagger-gen": "^1.4.3",
+    "sw2dts": "^2.6.1"
   }
 }
